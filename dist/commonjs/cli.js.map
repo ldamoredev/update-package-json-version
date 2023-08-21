@@ -1,1 +1,0 @@
-{"version":3,"names":["_updatePackageJsonVersion","require","args","process","argv","slice","updatePackageJsonVersion"],"sourceRoot":"..\\..\\src","sources":["cli.ts"],"mappings":";;AAAA,IAAAA,yBAAA,GAAAC,OAAA;AAEA,MAAMC,IAAI,GAAGC,OAAO,CAACC,IAAI,CAACC,KAAK,CAAC,CAAC,CAAC,EAAC;AACnC,IAAAC,kDAAwB,EAACJ,IAAI,CAAC"}
