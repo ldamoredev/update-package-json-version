@@ -1,6 +1,6 @@
 {
   "name": "update-package-json-version",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Simple package for update the package.json version",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
@@ -12,7 +12,7 @@
     "README.md",
     "LICENSE"
   ],
-  "bin": "./dist/commonjs/cli.js",
+  "bin": "./dist/commonjs/exec.js",
   "author": "Lautaro Damore <lauti.damore@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/ldamoredev/update-package-json-version#readme",
