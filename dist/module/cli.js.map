@@ -1,0 +1,1 @@
+{"version":3,"names":["updatePackageJsonVersion","args","process","argv","slice"],"sourceRoot":"..\\..\\src","sources":["cli.ts"],"mappings":"AAAA,SAASA,wBAAwB,QAAQ,qCAAqC;AAE9E,MAAMC,IAAI,GAAGC,OAAO,CAACC,IAAI,CAACC,KAAK,CAAC,CAAC,CAAC,EAAC;AACnCJ,wBAAwB,CAACC,IAAI,CAAC"}

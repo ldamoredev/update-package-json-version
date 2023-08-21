@@ -1,0 +1,54 @@
+{
+  "name": "update-package-json-version",
+  "version": "0.1.0",
+  "description": "Simple package for update the package.json version",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/module/index.js",
+  "source": "src/index.ts",
+  "types": "dist/typescript/index.d.ts",
+  "author": "Lautaro Damore <lauti.damore@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ldamoredev/package-json-version-updater#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldamoredev/package-json-version-updater.git"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "bin": "./dist/commonjs/cli.js",
+  "scripts": {
+    "lint": "eslint . && tsc --noEmit",
+    "build": "bob build",
+    "prepack": "bob build",
+    "update-version": "npm run build && node ./dist/commonjs/cli.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "react-native-builder-bob": "^0.20.4",
+    "typescript": "^5.0.4"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "dist",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
