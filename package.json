@@ -1,6 +1,6 @@
 {
   "name": "update-package-json-version",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Simple package for update the package.json version",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
@@ -15,10 +15,10 @@
   "bin": "./dist/commonjs/cli.js",
   "author": "Lautaro Damore <lauti.damore@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/ldamoredev/package-json-version-updater#readme",
+  "homepage": "https://github.com/ldamoredev/update-package-json-version#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ldamoredev/package-json-version-updater.git"
+    "url": "https://github.com/ldamoredev/update-package-json-version.git"
   },
   "keywords": [
     "javascript",
